@@ -136,6 +136,7 @@
     <Compile Include="Framework\Common\Constants.cs" />
     <Compile Include="Framework\Common\CommonSetupTeardown.cs" />
     <Compile Include="Framework\Common\DriverFactory.cs" />
+    <Compile Include="Framework\Constants.cs" />
     <Compile Include="Framework\SQL\SQLExecutor.cs" />
     <Compile Include="Tests\_InProgress\DemoTest.cs" />
   </ItemGroup>

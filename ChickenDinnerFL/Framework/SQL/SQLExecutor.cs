@@ -1,4 +1,5 @@
 ﻿using ChickenDinnerFL.Framework.Common;
+using ChickenDinnerFL.Framework;
 using System.Data;
 using System.Data.SqlClient;
 using System;
@@ -11,7 +12,7 @@ namespace ChickenDinnerFL.Framework.SQL
 {
     public class SQLExecutor
     {
-        private static string connectionString = "@Server=sogetidb.cwffvv6nyyql.us-west-2.rds.amazonaws.com;Databse=TBD;Uid=Hackathon;Pwd=Sogeti999;Connection Timeout=120";
+        private static readonly string connectionString = Constants.DB_CONNECTION_STRING;
 
         internal static void executeSQL(string query)
         {
