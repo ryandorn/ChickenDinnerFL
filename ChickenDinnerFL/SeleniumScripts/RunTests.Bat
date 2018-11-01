@@ -1,0 +1,1 @@
+"C:\ChickenDinnerFL\NUnit\nunit3-console" "C:\ChickenDinnerFL\bin\debug\ChickenDinnerFL.dll" --workers 3 --params:url=https://qa1.hsn.com --params:EnableGrid=true --params:Browser=Chrome

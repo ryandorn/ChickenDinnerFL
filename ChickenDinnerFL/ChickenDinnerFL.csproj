@@ -34,7 +34,6 @@
     <Folder Include="Framework\Reporting\" />
     <Folder Include="Framework\Utils\" />
     <Folder Include="PlatformConfigs\" />
-    <Folder Include="SeleniumScripts\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Data" />
@@ -130,6 +129,11 @@
     <None Include="license" />
     <None Include="extent-config.xml" />
     <None Include="App.config" />
+    <None Include="SeleniumScripts\hub_config.json" />
+    <None Include="SeleniumScripts\node_config.json" />
+    <None Include="SeleniumScripts\RunTests.Bat" />
+    <None Include="SeleniumScripts\StartHub.bat" />
+    <None Include="SeleniumScripts\StartNode.bat" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Framework\Applications\Desktop\DesktopBasePageClass.cs" />
