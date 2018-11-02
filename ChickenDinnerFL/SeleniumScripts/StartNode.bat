@@ -1,1 +1,1 @@
-﻿
+cmd /C start/MIN java -Dwebdriver.chrome.driver="C:\ChickenDinnerFL\Drivers\chromedriver.exe" -Dwebdriver.gecko.driver="C:\ChickenDinnerFL\Drivers\geckodriver.exe" -jar "C:\ChickenDinnerFL\bin\Debug\selenium-server-standalone-3.9.1.jar" -role node -nodeConfig "C:\ChickenDinnerFL\SeleniumScripts\node_config.json"

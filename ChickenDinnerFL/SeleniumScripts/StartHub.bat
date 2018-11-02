@@ -1,1 +1,1 @@
-﻿
+cmd /C start/MIN java -Dwebdriver.chrome.driver="C:\ChickenDinnerFL\bin\Debug\chromedriver.exe" -Dwebdriver.gecko.driver="C:\ChickenDinnerFL\bin\Debug\geckodriver.exe" -jar "C:\ChickenDinnerFL\bin\Debug\selenium-server-standalone-3.9.1.jar" -role hub -hubConfig "C:\ChickenDinnerFL\SeleniumScripts\hub_config.json"
