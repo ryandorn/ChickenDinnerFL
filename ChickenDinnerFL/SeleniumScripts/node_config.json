@@ -3,12 +3,12 @@
 	[
 		{
 			"browserName": "firefox",
-			"maxInstances": 1,
+			"maxInstances": 2,
 			"seleniumProtocol": "WebDriver"
 		},
 		{
 			"browserName": "chrome",
-			"maxInstances": 1,
+			"maxInstances": 2,
 			"seleniumProtocol": "WebDriver"
 		}
 	],
@@ -16,7 +16,7 @@
 	"maxSession": 2,
 	"register": true,
 	"registerCycle": 5000,
-	"hub": "http://172.20.128.1:4444",
+	"hub": "http://172.31.35.37:4444",
 	"nodeStatusCheckTimeout": 5000,
 	"nodePolling": 5000,
 	"role": "node",
