@@ -151,6 +151,10 @@
     <Compile Include="Framework\Common\DriverFactory.cs" />
     <Compile Include="Framework\Constants.cs" />
     <Compile Include="Framework\SQL\SQLExecutor.cs" />
+    <Compile Include="Tests\_InProgress\DemoTest4.cs" />
+    <Compile Include="Tests\_InProgress\DemoTest3.cs" />
+    <Compile Include="Tests\_InProgress\DemoTest2.cs" />
+    <Compile Include="Tests\_InProgress\DemoTest1.cs" />
     <Compile Include="Tests\_InProgress\DemoTest.cs" />
   </ItemGroup>
   <ItemGroup>
